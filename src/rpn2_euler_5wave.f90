@@ -41,7 +41,7 @@
 
 !     local arrays -- common block comroe is passed to rpt2eu
 !     ------------
-    parameter (maxm2 = 1800)
+    parameter (maxm2 = 5000)
     dimension delta(4)
     logical :: efix
     common /cparam/  gamma,gamma1

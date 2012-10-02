@@ -23,7 +23,7 @@
 
     common /cparam/  gamma,gamma1
     dimension waveb(5,4),sb(4)
-    parameter (maxm2 = 1800)
+    parameter (maxm2 = 5000)
 !     # assumes at most maxm2 * maxm2 grid with mbc<=7
     common /comroe/ u2v2(-6:maxm2+7), &
     u(-6:maxm2+7),v(-6:maxm2+7), &
