@@ -23,7 +23,7 @@
     dimension bpasdq(meqn, 1-mbc:maxm+mbc)
 
     dimension waveb(3,3),sb(3)
-    parameter (maxm2 = 5000)
+    parameter (maxm2 = 20000)
     common /comroe/ u(-6:maxm2+7),v(-6:maxm2+7),a(-6:maxm2+7), &
     h(-6:maxm2+7)
 

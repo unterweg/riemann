@@ -22,7 +22,7 @@
 !
       common /cparam/  gamma
       dimension waveb(4,3),sb(3)
-      parameter (maxm2 = 10000)  
+      parameter (maxm2 = 25000)  
       common /comroe/ u2v2(-6:maxm2+7), &
             u(-6:maxm2+7),v(-6:maxm2+7),enth(-6:maxm2+7),a(-6:maxm2+7), &
             g1a2(-6:maxm2+7),euv(-6:maxm2+7) 

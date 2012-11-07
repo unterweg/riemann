@@ -46,7 +46,7 @@
     dimension delta(3)
     logical :: efix
 
-    parameter (maxm2 = 1800)
+    parameter (maxm2 = 20000)
     common /sw/  g
     dimension u(1-mbc:maxm+mbc),v(1-mbc:maxm+mbc),a(1-mbc:maxm+mbc), &
     h(1-mbc:maxm+mbc)
